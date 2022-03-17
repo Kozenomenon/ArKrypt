@@ -1,6 +1,6 @@
 # ArKrypt - Secure API Calls
  A standard encryption implementation for Ark mods to securely communicate with an APIs.
- <img src="images/ArKrypt_Demo_UI_Sm.gif" alt="ArKrypt Demo UI" width="550">
+ <img src="images/ArKrypt_Demo_UI_Sm.gif" alt="ArKrypt Demo UI" width="600">
  
  _[Screenshots](images)_
  
