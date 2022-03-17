@@ -3,11 +3,13 @@
 ## Prerequisites
 - First, you need to install [NodeJS](https://nodejs.org/en/download/) (windows installer)
 - Then, in terminal from this folder, get [Express](https://github.com/expressjs/express) 
-  - `npm i express`
+```
+K:\GitHub\ArKrypt\api_examples\node> npm i express
+```
 
 ## API Routes
 All routes handle a cipher/nonce, decrypt & log them, then reply with a similarly ciphered response.  
-/send-message  
+**/send-message**  
 Request/Response
 ```json
 {
