@@ -16,6 +16,7 @@ All routes handle a cipher/nonce, decrypt & log them, then reply with a similarl
     "cipher":"Base64Ciphertext"
 }
 ```
+_Use-case examples only, requests/responses are fake/random to demo the encryption._
 - `/test-message` 
   - Send/receive secure message text with API. 
 - `/player-is` 
@@ -24,7 +25,6 @@ All routes handle a cipher/nonce, decrypt & log them, then reply with a similarl
   - Notify API that mod is paywalled.
 - `/global-config` 
   - Retrieve a mod's global config.  
-_Use-case examples only, requests/responses are fake/random to demo the encryption._
 
 ## Code Files
 - `my-api.js` 
@@ -36,10 +36,10 @@ _Use-case examples only, requests/responses are fake/random to demo the encrypti
 
 ## Screenshots
 ### Send Message - NodeJS
-![Send Message - NodeJS](ArKrypt_SendMessageCmd_API_NodeJS.PNG)
+![Send Message - NodeJS](/images/ArKrypt_SendMessageCmd_API_NodeJS.PNG)
 ### Demo UI - Player Is... - NodeJS
-![Player Is... NodeJS](ArKrypt_UI_PlayerIs_API_NodeJS.PNG)
+![Player Is... NodeJS](/images/ArKrypt_UI_PlayerIs_API_NodeJS.PNG)
 ### Demo UI - Server Paywall - NodeJS
-![Server Paywall - NodeJS](ArKrypt_UI_SvrPaywall_API_NodeJS.PNG)
+![Server Paywall - NodeJS](/images/ArKrypt_UI_SvrPaywall_API_NodeJS.PNG)
 ### Demo UI - Global Config - NodeJS
-![Global Config - NodeJS](ArKrypt_UI_GlobalConf_API_NodeJS.PNG)
+![Global Config - NodeJS](/images/ArKrypt_UI_GlobalConf_API_NodeJS.PNG)
