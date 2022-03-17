@@ -23,7 +23,7 @@ All routes handle a cipher/nonce, decrypt & log them, then reply with a similarl
 - `/server-paywall` 
   - Notify API that mod is paywalled.
 - `/global-config` 
-  - Retrieve a mod's global config.
+  - Retrieve a mod's global config.  
 _Use-case examples only, requests/responses are fake/random to demo the encryption._
 
 ## Code Files
@@ -33,3 +33,13 @@ _Use-case examples only, requests/responses are fake/random to demo the encrypti
   - Uses node's native `crypto` module to do ChaCha20.
 - `my-settings.js` 
   - Access to API settings such as the encryption key.
+
+## Screenshots
+### Send Message - NodeJS
+![Send Message - NodeJS](ArKrypt_SendMessageCmd_API_NodeJS.PNG)
+### Demo UI - Player Is... - NodeJS
+![Player Is... NodeJS](ArKrypt_UI_PlayerIs_API_NodeJS.PNG)
+### Demo UI - Server Paywall - NodeJS
+![Server Paywall - NodeJS](ArKrypt_UI_SvrPaywall_API_NodeJS.PNG)
+### Demo UI - Global Config - NodeJS
+![Global Config - NodeJS](ArKrypt_UI_GlobalConf_API_NodeJS.PNG)
