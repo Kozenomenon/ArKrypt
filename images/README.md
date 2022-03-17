@@ -1,4 +1,5 @@
 # ArKrypt Screenshots
+![ArKrypt Demo UI](ArKrypt_Demo_UI_Sm.gif)
 
 ### Send Message - PIE
 ![Send Message - PIE](ArKrypt_SendMessageCmd_PIE.PNG)
