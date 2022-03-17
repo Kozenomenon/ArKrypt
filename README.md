@@ -3,12 +3,14 @@
    - ChaCha20 Stream Cipher _(Used by Wireshark VPN protocol, its solid!)_ 
    - [The RFC if you're interested](https://datatracker.ietf.org/doc/html/rfc8439)
    - [Wikipedia on ChaCha20](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant)
+ 
+ ![ArKrypt Demo UI](images/ArKrypt_Demo_UI_Sm.gif)
 
- Includes: 
+ This Open-Source Includes: 
   - ArKrypt mod located at `\mod\ArKrypt`. 
-    - _Copy this folder into your ADK's Mods folder._
+    - _Close ADK, then copy this folder into your Mods folder._
     - `ArKrypt_Functions` - ArKrypt Function Object BP
-      - _This is all you need to use the encryption in your mod, has no dependencies._
+      - _This is all you need to use the encryption in your mod; has no dependencies._
       - _Also includes some encoding/conversion functionality._
     - Demo UI 
       - Access in PIE: `admincheat scriptcommand arkrypt test_ui`
