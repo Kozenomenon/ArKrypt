@@ -6,12 +6,23 @@
   - `npm i express`
 
 ## API Routes
-- /send-message
-  Request/Response
+All routes handle a cipher/nonce, decrypt & log them, then reply with a similarly ciphered response.  
+/send-message  
+Request/Response
 ```json
 {
     "nonce":"Base64Nonce",
     "cipher":"Base64Ciphertext"
 }
 ```
-
+/player-is  
+/server-paywall  
+/global-config  
+Request/Response 
+```json
+{
+    "req_id":"RequestID",
+    "nonce":"Base64Nonce",
+    "cipher":"Base64Ciphertext"
+}
+```
