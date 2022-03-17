@@ -2,7 +2,8 @@
  A standard encryption implementation for Ark mods to securely communicate with an APIs.
  <img src="images/ArKrypt_Demo_UI_Sm.gif" alt="ArKrypt Demo UI" width="550">
  
- _[See Other Images](images)_
+ _[Screenshots](images)_
+ 
 ## Included in this Source
   - ArKrypt mod located at `\mod\ArKrypt`. 
     - _Close ADK, then copy this folder into your Mods folder._
