@@ -6,7 +6,6 @@
 //
 // Setup: (run from this script's dir)
 // npm i express
-// npm i env
 //
 // then run this from the dir with this script: 
 // node .\my-api.js
