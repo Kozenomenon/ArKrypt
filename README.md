@@ -1,12 +1,10 @@
-# ArKrypt
+# ArKrypt - Secure API Calls
  A standard encryption implementation for Ark mods to securely communicate with their APIs.
-   - ChaCha20 Stream Cipher _(Used by Wireshark VPN protocol, its solid!)_ 
-   - [The RFC if you're interested](https://datatracker.ietf.org/doc/html/rfc8439)
-   - [Wikipedia on ChaCha20](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant)
  
  ![ArKrypt Demo UI](images/ArKrypt_Demo_UI_Sm.gif)
+ ![ArKrypt Demo UI Gyazo](https://i.gyazo.com/6b3c7544f76836d34c8aa1d3e8e09d24.mp4)
 
- This Open-Source Includes: 
+## Included in this Source
   - ArKrypt mod located at `\mod\ArKrypt`. 
     - _Close ADK, then copy this folder into your Mods folder._
     - `ArKrypt_Functions` - ArKrypt Function Object BP
@@ -28,3 +26,7 @@
         - `/global-config` - Securely retrieve a mod's global config.
     - *APIs have comments that indicate pre-requisite modules needed.*
 
+## Encryption Details
+  - ChaCha20 Stream Cipher _(Used by Wireshark VPN protocol, its solid!)_ 
+  - [The RFC if you're interested](https://datatracker.ietf.org/doc/html/rfc8439)
+  - [Wikipedia on ChaCha20](https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant)
