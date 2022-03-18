@@ -13,5 +13,5 @@
   - [Wikipedia on ChaCha20](https://en.wikipedia.org/wiki/ChaCha20)
   - Implementations: 
     - Mod: `ArKrypt_Functions` _(Func Object BP)_ 
-    - Python: `my_chacha20.py` _(uses pycryptodome)_
-    - NodeJS: `my-chacha20.js` _(uses crypto lib)_
+    - Python: `my_chacha20.py` _(uses pycryptodome module)_
+    - NodeJS: `my-chacha20.js` _(uses crypto module)_
