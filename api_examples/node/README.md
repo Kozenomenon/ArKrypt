@@ -1,10 +1,14 @@
 # ArKrypt - NodeJS API Example
 
 ## Prerequisites
-- First, you need to install [NodeJS](https://nodejs.org/en/download/) (windows installer)
-- Then, in terminal from this folder, get [Express](https://github.com/expressjs/express) 
+First, you need to install [NodeJS](https://nodejs.org/en/download/) (windows installer)  
+Then, in terminal from this folder, get [Express](https://github.com/expressjs/express) 
 ```
 K:\GitHub\ArKrypt\api_examples\node> npm i express
+```
+Finally, run it like so:
+```
+K:\GitHub\ArKrypt\api_examples\node> node .\my-api.js
 ```
 
 ## API Routes

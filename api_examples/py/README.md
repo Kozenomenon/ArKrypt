@@ -4,15 +4,19 @@
 First, install [Python3.6+](https://www.python.org/downloads/) (windows installer)  
 Then, install module [FastAPI](https://fastapi.tiangolo.com/):
 ```
-K:\GitHub\ArKrypt\api_examples\py>python -m pip install fastapi
+K:\GitHub\ArKrypt\api_examples\py> python -m pip install fastapi
 ```
 Then, install module [Uvicorn](https://www.uvicorn.org/):
 ```
-K:\GitHub\ArKrypt\api_examples\py>python -m pip install uvicorn[standard]
+K:\GitHub\ArKrypt\api_examples\py> python -m pip install uvicorn[standard]
 ```
 Then, install module [PyCryptoDome](https://www.pycryptodome.org/): _(remove 'pycrypto' if you have that)_
 ```
-K:\GitHub\ArKrypt\api_examples\py>python -m pip install pycryptodome
+K:\GitHub\ArKrypt\api_examples\py> python -m pip install pycryptodome
+```
+Finally, run it like so:
+```
+K:\GitHub\ArKrypt\api_examples\py> uvicorn my_api:app --reload
 ```
 
 ## API Routes
