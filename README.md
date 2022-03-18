@@ -8,6 +8,6 @@
   - [Screenshots](/images) 
 
 ## Encryption Details
-  - ChaCha20 Stream Cipher _(Used by [Wireshark VPN protocol](https://en.wikipedia.org/wiki/WireGuard), its solid!)_ 
+  - ChaCha20 Stream Cipher _(Used by [WireGuard VPN protocol](https://en.wikipedia.org/wiki/WireGuard), its solid!)_ 
   - [The RFC if you're interested](https://datatracker.ietf.org/doc/html/rfc8439)
   - [Wikipedia on ChaCha20](https://en.wikipedia.org/wiki/ChaCha20)
