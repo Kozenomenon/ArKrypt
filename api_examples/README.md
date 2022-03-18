@@ -1,5 +1,7 @@
 # ArKrypt - API Examples
-Included are two API examples. The mod uses both of them, but you don't need them both. I implemented the same thing in python and nodejs. 
+Included are two API examples. The mod uses both of them, but you don't need them both. 
+- [Python Example](/api_examples/py)
+- [NodeJS Example](/api_examples/node)
 
 Also, included here is a [Postman](https://www.postman.com/) export if you would like to test the API routes manually without the ADK/Mod. 
 
