@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "570c6b7a-7e06-432c-9cf2-0bf4aa4775ad",
+		"name": "ArKrypt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5555/test-message",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"ijmf7A5HWhlSeG8+\",\r\n    \"cipher\":\"V74Kjza6l6kkM83zOWx1wXdIQ8KR7zhgodB6epssp5YlBrFj7AcCIY6p0lIszemRhhvKkUt8/eMOd4dHRq7zyhpL4is4qtxPRajreIf+f3yGpp+tutWUgJT5o0iSVbTMme9AUSp/ioOsTUEEzoMDC+Lj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5555/test-message",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"test-message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/test-message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"ijmf7A5HWhlSeG8+\",\r\n    \"cipher\":\"V74Kjza6l6kkM83zOWx1wXdIQ8KR7zhgodB6epssp5YlBrFj7AcCIY6p0lIszemRhhvKkUt8/eMOd4dHRq7zyhpL4is4qtxPRajreIf+f3yGpp+tutWUgJT5o0iSVbTMme9AUSp/ioOsTUEEzoMDC+Lj\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/test-message",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"test-message"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/player-is",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"ZBu6CWnznNSM2/zS\",\r\n    \"cipher\":\"Dy6wPJcqH9vSSTlgkK8FcGbAxvO9esK6kJMDBZsQwQaxQ/GZGCj/DAcxQgdCdBEbeqaDC621V/qr0J0bjFlYz7QxX6b0Fm+iQHnh2/uFvEcVTK34nG5elciLuUEDrKKH2RlXA/GCxd+WRYCVk5xkcmfd31eC2AGxYmo4Xr0POzf9+TVBdNSxY/3SK6D90xxK2FFbMsFUkYK+iDyFaFhwWcArMCCZqH5A\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/player-is",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"player-is"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/server-paywall",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"FbjbOmk8/vu7kT/y\",\r\n    \"cipher\":\"dSRvsyo8425SI+H7ajCzHOIM8ve/aKMH1IvkI5ZE0okA2TrthtDXqtYo4tAR4PK5YXBRM9vm/pYdFCATo8uF9/rANT5RyAsIl+BmLVLk3/Z/Dk6h7eybecDf8PnwWBXzoTDNNeTw+QQnrBIAwHNMODlexYzNQcmMaBRWJ8GE3oBjQY/4HnRb90FKgGv0Ol84o8aid31qhHsrSrmSzJBzcHYR/05olJ8TyXTuxB+mWka+Fo5cpu8=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/server-paywall",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"server-paywall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/global-config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"U98eC6imO7jogWuE\",\r\n    \"cipher\":\"5tFcrVwTf8u/HQtG+LuKlPyq293tj9OKWneDDCsgQJV6t2VFmaVbBhUtJIKaSi3yJPij2YmWqyPTMJgK5wYsjRw5XcnoXDCFFZpqTSRGYxphcI62KMzfUibE/2CO3LIajxHBI4DVJgJWS/FhykiraAG1lroo8B6PRo5w4dvq/b/Edhg=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/global-config",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"global-config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5555/player-is",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"ZBu6CWnznNSM2/zS\",\r\n    \"cipher\":\"Dy6wPJcqH9vSSTlgkK8FcGbAxvO9esK6kJMDBZsQwQaxQ/GZGCj/DAcxQgdCdBEbeqaDC621V/qr0J0bjFlYz7QxX6b0Fm+iQHnh2/uFvEcVTK34nG5elciLuUEDrKKH2RlXA/GCxd+WRYCVk5xkcmfd31eC2AGxYmo4Xr0POzf9+TVBdNSxY/3SK6D90xxK2FFbMsFUkYK+iDyFaFhwWcArMCCZqH5A\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5555/player-is",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"player-is"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5555/server-paywall",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"FbjbOmk8/vu7kT/y\",\r\n    \"cipher\":\"dSRvsyo8425SI+H7ajCzHOIM8ve/aKMH1IvkI5ZE0okA2TrthtDXqtYo4tAR4PK5YXBRM9vm/pYdFCATo8uF9/rANT5RyAsIl+BmLVLk3/Z/Dk6h7eybecDf8PnwWBXzoTDNNeTw+QQnrBIAwHNMODlexYzNQcmMaBRWJ8GE3oBjQY/4HnRb90FKgGv0Ol84o8aid31qhHsrSrmSzJBzcHYR/05olJ8TyXTuxB+mWka+Fo5cpu8=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5555/server-paywall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"server-paywall"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5555/global-config",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nonce\":\"U98eC6imO7jogWuE\",\r\n    \"cipher\":\"5tFcrVwTf8u/HQtG+LuKlPyq293tj9OKWneDDCsgQJV6t2VFmaVbBhUtJIKaSi3yJPij2YmWqyPTMJgK5wYsjRw5XcnoXDCFFZpqTSRGYxphcI62KMzfUibE/2CO3LIajxHBI4DVJgJWS/FhykiraAG1lroo8B6PRo5w4dvq/b/Edhg=\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5555/global-config",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5555",
+					"path": [
+						"global-config"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
