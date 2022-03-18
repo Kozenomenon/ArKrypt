@@ -43,7 +43,7 @@ _Use-case examples only, requests/responses are fake/random to demo the encrypti
 - `my_api.py` 
   - API requests/responses using Express.
 - `my_chacha20.py` 
-  - Uses node's native `crypto` module to do ChaCha20.
+  - Uses `pycryptodome` module to do ChaCha20.
 - `my_settings.py` 
   - Access to API settings such as the encryption key.
 
