@@ -20,10 +20,11 @@ K:\GitHub\ArKrypt\api_examples\py> uvicorn my_api:app --reload
 ```
 
 ## API Routes
-All routes handle a cipher/nonce, decrypt & log them, then reply with a similarly ciphered response. 
+All routes handle a cipher/nonce, decrypt & log them, then reply with a similarly ciphered response.  
+_The Request's 'nonce' is returned as 'req_id'._
 ```json
 {
-    "req_id":"RequestID",
+    "req_id":"NonceFromRequest",
     "nonce":"Base64Nonce",
     "cipher":"Base64Ciphertext"
 }
