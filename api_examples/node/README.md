@@ -13,7 +13,7 @@ K:\GitHub\ArKrypt\api_examples\node> node .\my-api.js
 
 ## API Routes
 All routes handle a cipher/nonce, decrypt & log them, then reply with a similarly ciphered response.  
-_The Request's 'nonce' is returned as 'req_id'._
+_The Request's 'nonce' is returned as 'req_id' for correlation._
 ```json
 {
     "req_id":"NonceFromRequest",
