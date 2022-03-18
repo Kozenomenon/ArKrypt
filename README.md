@@ -3,9 +3,9 @@
  <img src="images/ArKrypt_Demo_UI_Sm.gif" alt="ArKrypt Demo UI" width="600">
  
  _[Screenshots](images)_
- 
-## Included in this Source
-  - ArKrypt mod located at `\mod\ArKrypt`. 
+
+## Contents
+  - ArKrypt mod located at [`\mod\ArKrypt`](mod). 
     - _Close ADK, then copy this folder into your Mods folder._
     - `ArKrypt_Functions` - ArKrypt Function Object BP
       - _This is all you need to use the encryption in your mod; has no dependencies._
@@ -15,8 +15,8 @@
     - CCA / Buff to enable demo functionality
     - Blutility BPs to test functions without running PIE (output log)
   - API Examples
-    - Python located at `\api_examples\py`
-    - NodeJS located at `\api_examples\node`
+    - Python located at [`\api_examples\py`](api_examples\py)
+    - NodeJS located at [`\api_examples\node`](api_examples\node)
     - Both API examples have the same functionality. 
       - Used by CCA for cmd: `admincheat scriptcommand arkrypt send_cipher <message>`
         - `/test-message` - Send/receive secure message text with API. 
