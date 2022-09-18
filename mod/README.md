@@ -16,6 +16,8 @@ admincheat scriptcommand arkrypt send_cipher <message>
 admincheat scriptcommand arkrypt test_ui
 ```
 _You need to have at least one of the [API examples](/api_examples) running of course!_  
+- Toggle which APIs to use in the `ArKrypt_CCA` BP.  
+![ArKrypt_CCA API Toggles](/images/ArKrypt_CCA_API_Toggles.png)  
 
 ### Contents
 - `ArKrypt_Functions` - ArKrypt Function Object BP

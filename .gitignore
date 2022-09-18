@@ -128,3 +128,6 @@ dist
 
 # python cache
 __pycache__/
+
+#php logs (since php has no console, we log to file instead)
+*-log.txt
